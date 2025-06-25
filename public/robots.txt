@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://vijayp.vercel.app
+Host: https://vijay-puchhadiya.vercel.app/
 
 # Sitemaps
-Sitemap: https://vijayp.vercel.app/sitemap.xml
+Sitemap: https://vijay-puchhadiya.vercel.app//sitemap.xml

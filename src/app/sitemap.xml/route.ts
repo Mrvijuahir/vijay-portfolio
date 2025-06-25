@@ -1,7 +1,7 @@
 export async function GET() {
   const fields = [
     {
-      loc: `https://vijayp.vercel.app`,
+      loc: `https://vijay-puchhadiya.vercel.app`,
       lastmod: new Date().toISOString(),
       changefreq: "monthly",
       priority: 0.7,

@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/Mrvijuahir/vijay-portfolio/issues"
   },
-  "homepage": "https://vijayahir.vercel.app",
+  "homepage": "https://vijay-puchhadiya.vercel.app",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
