@@ -5,7 +5,7 @@ export default function AboutMeDetail() {
   return (
     <Box display={"flex"} flexDirection={"column"} gap={2}>
       <Typography variant="h3" align="left">
-        Here's a little more about who I am.
+        Here&apos;s a little more about who I am.
       </Typography>
       <Typography variant="body1" align="left">
         I&apos;m a passionate Full Stack Developer specializing in React.js and

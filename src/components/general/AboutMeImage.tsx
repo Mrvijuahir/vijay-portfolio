@@ -1,41 +1,7 @@
 "use client";
 
-import { Box, styled } from "@mui/material";
+import { Box } from "@mui/material";
 import Image from "next/image";
-
-const StyledBox = styled(Box)(({ theme }) => ({
-  width: "100%",
-  display: "flex",
-  alignItems: "flex-start",
-  justifyContent: "center",
-  paddingBottom: 50,
-  "&>div": {
-    position: "relative",
-    width: "max-content",
-    "& .about-me-user": {
-      position: "absolute",
-      bottom: "-45px",
-      left: "50%",
-      transform: "translateX(-50%)",
-    },
-    "& .about-me-sleep": {
-      position: "absolute",
-      top: "90px",
-      left: "120px",
-      filter: theme.palette.mode === "light" ? "invert(1)" : "none",
-    },
-    [theme.breakpoints.down("sm")]: {
-      "& .about-me-bg": {
-        width: 350,
-        height: 250,
-      },
-      "& .about-me-sleep": {
-        top: "40px",
-        left: "90px",
-      },
-    },
-  },
-}));
 
 export default function AboutMeImage() {
   return (

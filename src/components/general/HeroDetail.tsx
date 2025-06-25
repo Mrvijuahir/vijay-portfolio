@@ -11,12 +11,12 @@ export default function HeroDetail() {
     <Box display={"flex"} flexDirection={"column"}>
       <Box display={"flex"} alignItems={"center"}>
         <PrimaryHeader variant="h1" highlightedText="Vijay">
-          Hey there, I’m
+          Hey there, I&apos;m
         </PrimaryHeader>
         <AnimateWavingHand />
       </Box>
       <Typography variant="body1" align="left">
-        I'm a Full Stack Developer with {calculateExperience()} years of
+        I&apos;m a Full Stack Developer with {calculateExperience()} years of
         experience working with React.js and Node.js. I enjoy building fast,
         responsive, and accessible web applications — and my passion for
         problem-solving keeps growing with every project
