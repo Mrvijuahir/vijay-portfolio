@@ -72,14 +72,17 @@ export default function Navbar(props: Props) {
             }}
           >
             {/* Logo */}
-            <Typography
+            {/* <Typography
               variant="h4"
               sx={{ fontWeight: 700 }}
               component={"a"}
               href="/"
             >
               {`<VP />`}
-            </Typography>
+            </Typography> */}
+            <IconButton onClick={toggleTheme}>
+              {mode === "light" ? <Moon /> : <Sun />}
+            </IconButton>
 
             {/* Desktop Navigation */}
             {!isMobile && (
@@ -112,9 +115,6 @@ export default function Navbar(props: Props) {
                 <Divider orientation="vertical" flexItem />
 
                 <Box sx={{ display: "flex", gap: 2, alignItems: "center" }}>
-                  <IconButton onClick={toggleTheme}>
-                    {mode === "light" ? <Moon /> : <Sun />}
-                  </IconButton>
                   <DownloadCVButton />
                 </Box>
               </Box>
@@ -161,14 +161,14 @@ export default function Navbar(props: Props) {
                 </ListItemButton>
               </ListItem>
             ))}
-            <Divider />
-            <ListItem disablePadding>
+            {/* <Divider /> */}
+            {/* <ListItem disablePadding>
               <ListItemButton onClick={toggleTheme}>
                 <ListItemText primary="Switch Theme" />
                 {mode === "light" ? <Moon /> : <Sun />}
               </ListItemButton>
-            </ListItem>
-            <ListItem disablePadding>
+            </ListItem> */}
+            <ListItem>
               <Box display={"flex"} justifyContent={"center"} width={"100%"}>
                 <DownloadCVButton />
               </Box>

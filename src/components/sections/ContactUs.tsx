@@ -79,7 +79,7 @@ export default function ContactUs() {
         </StyledBox>
         <StyledBox mb={"2rem"}>
           <Phone />
-          <Link href={"tel:+916354145435"} target="_blank">
+          <Link href={"tel:+919925876005"} target="_blank">
             <Typography variant="h2">{phone}</Typography>
           </Link>
           <Tooltip

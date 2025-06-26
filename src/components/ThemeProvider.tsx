@@ -26,18 +26,7 @@ export function useThemeContext() {
 }
 
 export default function ThemeProvider({ children }: { children: ReactNode }) {
-  const [prefersDarkMode, setPrefersDarkMode] = useState(false);
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      setPrefersDarkMode(isDark);
-    }
-  }, []);
-
-  const [mode, setMode] = useState<"light" | "dark">(
-    prefersDarkMode ? "dark" : "light"
-  );
+  const [mode, setMode] = useState<"light" | "dark">("dark");
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme") as
