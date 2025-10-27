@@ -233,6 +233,22 @@ export const SKILLS: SkillDetailTypes[] = [
 
 export const PROJECTS: ProjectDetailTypes[] = [
   {
+    name: "Giveable.AI",
+    description:
+      "The simplest tool Used by Non-Profits / Churches / Creators / Fundraisers to track giving, automate outreach & follow up with members",
+    url: "https://www.giveable.ai/",
+    previewImage: "/images/projects/giveable.png",
+    technologies: [
+      "Next.js",
+      "Laravel",
+      "MySQL",
+      "OpenAI API",
+      "Stripe",
+      "Material UI",
+    ],
+    title: "Full Stack Developer",
+  },
+  {
     name: "Bookify.AI",
     description:
       "We built a platform that allows users to interact with PDFs, books, documents, websites, YouTube videos, and more using AI-powered chat. Designed for students, researchers, and professionals, this tool transforms the way people learn and access information by enabling seamless AI-driven conversations with various content sources.",

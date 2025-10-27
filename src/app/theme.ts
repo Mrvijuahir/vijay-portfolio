@@ -13,7 +13,7 @@ declare module "@mui/material/styles" {
 const getTheme = (mode: "light" | "dark") =>
   createTheme({
     typography: {
-      fontFamily: "'Baloo Bhai 2', sans-serif",
+      fontFamily: "'Montserrat', sans-serif",
       h1: {
         fontSize: "2rem",
         fontWeight: 700,
