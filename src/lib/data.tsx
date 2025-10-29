@@ -17,7 +17,6 @@ export const NAV_LINKS: NavLinkTypes[] = [
   { label: "Skills", href: "#skills" },
   { label: "Works", href: "#works" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export const SOCIAL_LINKS: SocialLinkTypes[] = [
@@ -36,11 +35,6 @@ export const SOCIAL_LINKS: SocialLinkTypes[] = [
     icon: "/images/logos/upwork-logo.png",
     url: "https://www.upwork.com/freelancers/~011eb6d62cfbadfed1?mp_source=share",
     iconAlt: "Upwork Icon",
-  },
-  {
-    icon: "/images/logos/linkedin-logo.png",
-    url: "https://www.linkedin.com/in/vijay-puchhadiya/",
-    iconAlt: "LinkedIn Icon",
   },
   {
     icon: "/images/logos/hackerrank.svg",

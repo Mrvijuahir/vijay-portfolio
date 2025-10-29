@@ -24,7 +24,6 @@ import {
 import { useThemeContext } from "../ThemeProvider";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import BodyContainer from "./BodyContainer";
-import DownloadCVButton from "../general/DownloadCV";
 import { NAV_LINKS } from "@/lib/data";
 import { NavLinkTypes } from "@/lib/types";
 import ScrollTop from "../general/ScrollTop";
@@ -112,11 +111,6 @@ export default function Navbar(props: Props) {
                   ))}
                 </Box>
 
-                <Divider orientation="vertical" flexItem />
-
-                <Box sx={{ display: "flex", gap: 2, alignItems: "center" }}>
-                  <DownloadCVButton />
-                </Box>
               </Box>
             )}
 
@@ -161,18 +155,6 @@ export default function Navbar(props: Props) {
                 </ListItemButton>
               </ListItem>
             ))}
-            {/* <Divider /> */}
-            {/* <ListItem disablePadding>
-              <ListItemButton onClick={toggleTheme}>
-                <ListItemText primary="Switch Theme" />
-                {mode === "light" ? <Moon /> : <Sun />}
-              </ListItemButton>
-            </ListItem> */}
-            <ListItem>
-              <Box display={"flex"} justifyContent={"center"} width={"100%"}>
-                <DownloadCVButton />
-              </Box>
-            </ListItem>
           </List>
         </Drawer>
       </AppBar>
