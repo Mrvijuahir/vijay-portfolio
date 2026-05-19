@@ -123,6 +123,11 @@ export const SKILLS: SkillDetailTypes[] = [
     url: "https://nodejs.org/en",
   },
   {
+    label: "Shopify Apps",
+    logo: "/images/logos/shopify.png",
+    url: "https://apps.shopify.com/aura-ai-geo-ai-search",
+  },
+  {
     label: "Express.js",
     logo: "/images/logos/express.svg",
     darkModeLogo: "/images/logos/express-light.svg",
@@ -232,6 +237,44 @@ export const SKILLS: SkillDetailTypes[] = [
 ];
 
 export const PROJECTS: ProjectDetailTypes[] = [
+  {
+    name: "Nudgify",
+    description:
+      "Nudgify helps leading brands in 138 countries and 30 languages to increase trust and sales with instant Social Proof and FOMO Nudges",
+    url: "https://www.nudgify.com/",
+    previewImage: "/images/projects/nudgify.png",
+    technologies: [
+      "Nuxt.js",
+      "Laravel",
+      "Node.js",
+      "MySQL",
+      "Shopify",
+      "Stripe",
+      "Redis",
+      "Clickhouse",
+      "AWS",
+      "DigitalOcean",
+    ],
+    title: "Full Stack Developer",
+  },
+  {
+    name: "Aura AI",
+    description:
+      "Aura AI helps your Shopify store appear in AI-powered search results from ChatGPT, Perplexity, Claude, Gemini, and Bing Copilot",
+    url: "https://apps.shopify.com/aura-ai-geo-ai-search",
+    previewImage: "/images/projects/auraai.png",
+    technologies: [
+      "Remix.js",
+      "Node.js",
+      "PostgreSQL",
+      "Polaris",
+      "Shopify",
+      "Redis",
+      "DigitalOcean",
+      "OpenAI"
+    ],
+    title: "Full Stack Developer",
+  },
   {
     name: "Giveable.AI",
     description:

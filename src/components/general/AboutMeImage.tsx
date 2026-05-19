@@ -33,7 +33,7 @@ export default function AboutMeImage() {
             }}
           >
             <Image
-              src="/images/vijay-fullpose.jpeg"
+              src="/images/vijay-fullpose.png"
               alt="Fullpose of Vijay"
               layout="fill"
               style={{ objectFit: "cover", borderRadius: 0 }}
